@@ -24,6 +24,8 @@ This project builds on our ECE Capstone work: an automated alignment system desi
 **Graduates:** open-source AI accelerators (Ztachip, VTA, Gemmini, VeriGOOD-ML, NVDLA) or any of the above 
 
 ## 3. Problem Definition
+We will design an AI algorithmn that detects small metal plate on a substrate with image input from integrated camera on microscope. The algorithmn will run on Raspberry PI and guide the motor to align the two metal plates. It will help researchers using microscope could align the sample more easily.
+
 Describe the AI or hardware design problem you aim to address and its relevance to AI hardware (e.g., efficiency, latency, scalability).
 
 ## 4. Technical Objectives
@@ -35,7 +37,7 @@ Describe the AI or hardware design problem you aim to address and its relevance 
 Describe your planned approach: hardware setup, software tools, model design, performance metrics, and validation strategy.
 
 ## 6. Expected Deliverables
-List tangible outputs: working demo, GitHub repository, documentation, presentation slides, and final report.
+We will provide a working demo of computer vision incorporated into the microscope image analysis. The analyzed result will be used in moter control operations. The training code will be provided in github repo. At the end of semester we will present with a working demo alongside presentation slides. Final report will be delivered if required.
 
 ## 7. Team Responsibilities
 
