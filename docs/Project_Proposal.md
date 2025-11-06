@@ -11,14 +11,14 @@
 # AI Hardware Project Proposal Template
 
 ## 1. Project Title
-Name of the Team
+Autostack
 
-List of students in the team
-
-Provide a clear and concise title for your project. 
+Frank Wu, Tony Xu, Anson Lu, Yingming Ma
 
 ## 2. Platform Selection
-Select one platform category and justify your choice.
+Platform: Raspberry Pi 5 (maybe with AI Kit as well)
+
+This project builds on our ECE Capstone work: an automated alignment system designed for use under a telescope. Since the system already utilizes a Raspberry Pi 5 for motor control, implementing our AI-based detection system on the same platform would be both efficient and practical.
 
 **Undergraduates:** Edge-AI, TinyML, or Neuromorphic platforms  
 **Graduates:** open-source AI accelerators (Ztachip, VTA, Gemmini, VeriGOOD-ML, NVDLA) or any of the above 
@@ -36,14 +36,13 @@ Describe your planned approach: hardware setup, software tools, model design, pe
 List tangible outputs: working demo, GitHub repository, documentation, presentation slides, and final report.
 
 ## 7. Team Responsibilities
-List each member’s main role.
 
 | Name | Role | Responsibilities |
 |------|------|------------------|
-| [Student A] | Team Lead | Coordination, documentation |
-| [Student B] | Hardware | Setup, integration |
-| [Student C] | Software | Model training, inference |
-| [Student D] | Evaluation | Testing, benchmarking |
+| Frank Wu | Team Lead | Coordination, documentation |
+| Tony Xu | Hardware | Setup, integration |
+| Anson Lu | Software | Model training, inference |
+| Yingming Ma | Evaluation | Testing, benchmarking |
 
 ## 8. Timeline and Milestones
 Provide expected milestones:
