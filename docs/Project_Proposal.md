@@ -25,8 +25,6 @@ This project builds on our ECE Capstone work: an automated alignment system desi
 ## 3. Problem Definition
 We will design an AI algorithmn that detects small metal plate on a substrate with image input from integrated camera on microscope. The algorithmn will run on Raspberry PI and guide the motor to align the two metal plates. It will help researchers using microscope to align the sample more easily.
 
-Describe the AI or hardware design problem you aim to address and its relevance to AI hardware (e.g., efficiency, latency, scalability).
-
 ## 4. Technical Objectives
 1. Detect flake candidates in the image, estimate their areas, and automatically select the flake with the largest area as the target.
 2. Verify that the motorized stage moves by the commanded distance. If the observed displacement deviates from the command, automatically apply corrective motion to eliminate positioning error.
