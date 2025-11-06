@@ -29,13 +29,15 @@ We will design an AI algorithmn that detects small metal plate on a substrate wi
 Describe the AI or hardware design problem you aim to address and its relevance to AI hardware (e.g., efficiency, latency, scalability).
 
 ## 4. Technical Objectives
-List 3–5 measurable objectives with quantitative targets when possible.
+1. Detect flake candidates in the image, estimate their areas, and automatically select the flake with the largest area as the target.
+2. Verify that the motorized stage moves by the commanded distance. If the observed displacement deviates from the command, automatically apply corrective motion to eliminate positioning error.
+3. Detect the color shift that occurs when two flakes successfully make contact. Use this signal as feedback to adjust Z-axis pressure in real time and ensure reliable stacking.
 
 ## 5. Methodology
 Describe your planned approach: hardware setup, software tools, model design, performance metrics, and validation strategy.
 
 ## 6. Expected Deliverables
-List tangible outputs: working demo, GitHub repository, documentation, presentation slides, and final report.
+We will provide a working demo of computer vision incorporated into the microscope image analysis. The analyzed result will be used in moter control operations. The training code will be provided in github repo. At the end of semester we will present with a working demo alongside presentation slides. Final report will be delivered if required.
 
 ## 7. Team Responsibilities
 
