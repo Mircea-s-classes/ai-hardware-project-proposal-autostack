@@ -33,7 +33,7 @@ List 3–5 measurable objectives with quantitative targets when possible.
 Describe your planned approach: hardware setup, software tools, model design, performance metrics, and validation strategy.
 
 ## 6. Expected Deliverables
-List tangible outputs: working demo, GitHub repository, documentation, presentation slides, and final report.
+We will provide a working demo of computer vision incorporated into the microscope image analysis. The analyzed result will be used in moter control operations. The training code will be provided in github repo. At the end of semester we will present with a working demo alongside presentation slides. Final report will be delivered if required.
 
 ## 7. Team Responsibilities
 
