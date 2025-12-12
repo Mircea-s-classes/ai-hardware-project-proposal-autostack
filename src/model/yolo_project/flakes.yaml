@@ -1,0 +1,6 @@
+path: synthetic_flakes
+train: images
+val: images
+
+names:
+  0: flake
