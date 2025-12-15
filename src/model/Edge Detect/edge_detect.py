@@ -4,7 +4,7 @@ import numpy as np
 # ============================
 # Parameters
 # ============================
-IMAGE_PATH = "image0 (1).jpg"
+IMAGE_PATH = "r9.jpg"
 
 # Minimum area in pixels^2 to keep a flake (tune this!)
 MIN_AREA = 200.0   # ignore tiny dust/noise
@@ -139,17 +139,17 @@ else:
 # ============================
 # 7. Visualize results
 # ============================
-cv.imshow("Original", img)
+# cv.imshow("Original", img)
 # cv.imshow("Blurred Gray", blur)
 # cv.imshow("Canny Edges", edges)
 # cv.imshow("Closed (for contours)", closed)
 # cv.imshow("All Flakes Mask (Filled)", mask_all)
 # cv.imshow("Overlay (All Flakes from Contours)", overlay)
-cv.imshow("Connected Components (colored flakes)", color_vis)
-cv.imshow("Main Flake (largest from CC)", main_mask)
+# cv.imshow("Connected Components (colored flakes)", color_vis)
+# cv.imshow("Main Flake (largest from CC)", main_mask)
 
-cv.waitKey(0)
-cv.destroyAllWindows()
+# cv.waitKey(0)
+# cv.destroyAllWindows()
 
 # ============================
 # 6. Draw bounding boxes + centroid for EVERY flake
