@@ -21,6 +21,6 @@ results = model(preprocessed)
 results[0].show()
 
 # Optional: save the result to disk
-save_path = "newtest_flakeresult/yolo_test.png"
+save_path = "testresult_forone/yolo_test.png"
 cv2.imwrite(save_path, results[0].plot())
 print(f"Saved YOLO result to {save_path}")
