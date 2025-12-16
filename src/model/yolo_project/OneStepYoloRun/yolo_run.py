@@ -9,7 +9,7 @@ import psutil
 import threading
 
 # Load your trained model
-model = YOLO("/home/autostack/Documents/AI_Hardware/ai-hardware-project-proposal-autostack/src/model/yolo_project/runs/detect/train/weights/best.pt")
+model = YOLO("/home/autostack/Documents/AI_Hardware/ai-hardware-project-proposal-autostack/src/model/yolo_project/runs/detect/flakes_yolov8s_1024/weights/best.pt")
 
 cpu_samples = []
 monitor_running = True
