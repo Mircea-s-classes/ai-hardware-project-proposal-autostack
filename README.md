@@ -1,4 +1,4 @@
-#Autostack
+# Autostack
 ## HowTo: Run YOLO Inference on Raspberry Pi
 
 This section explains how to run the trained YOLO model on a Raspberry Pi using the provided inference script and observe hardware performance metrics such as inference time and CPU utilization.
